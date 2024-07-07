@@ -1,0 +1,126 @@
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: beige;
+    text-align: center ;
+}
+
+nav {
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    list-style:none;
+}
+
+.ulnav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;  
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profilepic {
+    width: 300px;
+    border-radius: 150px;
+}
+
+.profileinf {
+    padding-left: 20px;
+    text-align: left;
+}
+
+.about {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.pabout {
+    padding-left: 20px;
+    text-align: left;
+}
+
+.contacts {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.ulcontacts {
+    padding-left: 20px;
+    text-align: left;
+}
+
+.skills {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.ulskills {
+    padding-left: 20px;
+    text-align: left;
+}
+
+.codes {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+code {
+    padding-left: 20px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.education {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.pedu {
+    padding-left: 20px;
+    text-align: left;
+}
+
+.language {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.ullang {
+    padding-left: 20px;
+    text-align: left;
+}
+
+footer {
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    gap: 50px;
+    padding-top: 50px;
+    position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+    padding-bottom: 20px;
+}
